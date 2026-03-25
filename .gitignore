@@ -7,9 +7,26 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+.node_modules
+
+# Build output
+.next
+out
 dist
 dist-ssr
+coverage
+.turbo
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc local files
 *.local
 
 # Editor directories and files
